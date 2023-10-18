@@ -44,7 +44,7 @@ O Projeto Vida Renal é uma aplicação de prontuário eletrônico desenvolvida 
 
 ## 🔖 Aplicação
 
-Você pode visualizar a aplicação do projeto através [DESSE LINK](https://frontend-vida-renal.vercel.app/patients)
+Você pode visualizar a aplicação do projeto através [DESSE LINK](https://frontend-vida-renal.vercel.app)
 
 ## 📈 Novas Features
 
