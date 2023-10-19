@@ -6,14 +6,14 @@ export const Notes = () => {
     return (
         <Styled.Container>
         <ButtonAction
-        icon={<DownloadForOfflineIcon />}
-        iconBackground="#5084d8"
-        iconColor="#000"
-        text="Baixar relatórios"
-        textColor="#000"
-        hoverBackground="#86a9e0"
-        hoverColor="#FFF"
-        onClick={() => {}}
+            icon={<DownloadForOfflineIcon />}
+            iconBackground="#5084d8"
+            iconColor="#000"
+            text="Baixar relatórios"
+            textColor="#000"
+            hoverBackground="#86a9e0"
+            hoverColor="#FFF"
+            onClick={() => {}}
         />
         <Styled.CardReport>
             <Styled.ContentReport>

@@ -14,6 +14,7 @@ export const ButtonWrapper = styled.button`
   color: ${(props) => props.textColor || '#000'};
   text-decoration: none !important;
   transition: background-color 0.3s, color 0.3s;
+  align-self: center;
 
   &:hover {
     background-color: ${(props) => props.hoverBackground || props.iconBackground || 'transparent'};

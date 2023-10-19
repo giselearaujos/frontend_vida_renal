@@ -9,6 +9,6 @@ export const DividerContainer = styled.div`
 `;
 
 export const DividerLine = styled.div`
-  border-left: 3px solid #A0AADF91; 
-  height: 100vh; 
+  border-left: 5px solid #A0AADF91;
+  height: 100vh;
 `;
