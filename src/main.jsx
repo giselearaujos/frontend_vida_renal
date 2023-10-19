@@ -10,6 +10,7 @@ import { Prescriptions } from './pages/Prescriptions';
 import { Exams } from './pages/Exams';
 import './styles/reset.css';
 import { Register } from './pages/Register';
+import { WelcomePage } from './pages/WelcomePage';
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Patients />,
+        element: <WelcomePage />,
       },
       {
         path: 'patients',
