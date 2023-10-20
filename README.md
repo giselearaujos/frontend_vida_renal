@@ -38,8 +38,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O Projeto Vida Renal é uma aplicação de prontuário eletrônico desenvolvida para atender às necessidades de pacientes renais crônicos, bem como de profissionais de saúde, como enfermeiros e médicos. A aplicação foi projetada para oferecer uma solução completa e centralizada para o acompanhamento de pacientes insuficiência renal crônica.
 
 - Principais Recursos:
-  -- :white_check_mark: Cadastro de Pacientes com API FHIR
-  -- :white_check_mark: Deleção de Pacientes com API FHIR
+- :white_check_mark: Cadastro de Pacientes com API FHIR
+- :white_check_mark: Deleção de Pacientes com API FHIR
 
 ## 🔖 Aplicação
 
