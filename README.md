@@ -47,8 +47,9 @@ Você pode visualizar a aplicação do projeto através [DESSE LINK](https://gis
 
 ## 📈 Novas Features
 
-- :construction: Responsividade
-- :construction: Integrar todas as telas com a API FHIR
+- :construction: Desenvolvimento da responsividade
+- :construction: Desenvolvimento da lógica da tela de login
+- :construction: Integração de todas as telas com a API FHIR
 
 ## :memo: Licença
 
