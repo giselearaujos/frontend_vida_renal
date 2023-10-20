@@ -19,7 +19,7 @@ Projeto desenvolvido a partir dos módulos estudados do curso Sistema para Inter
 <br>
 
 <p align="center">
-  <img src="/src/assets/print.png" alt="Logo Do projeto Vida Renal">
+  <img src="/src/assets/app.gif" alt="Gif do projeto Vida Renal">
 </p>
 
 ## 🚀 Tecnologias
