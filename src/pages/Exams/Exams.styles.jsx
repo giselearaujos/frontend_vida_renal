@@ -82,6 +82,7 @@ export const ContainerRight = styled.div`
 export const BtnAndSearch = styled.div`
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%
 `;
 
