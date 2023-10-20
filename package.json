@@ -26,8 +26,7 @@
     "react-router-dom": "^6.16.0",
     "rsuite": "^5.40.0",
     "styled-components": "^6.1.0",
-    "swr": "^2.2.4",
-    "vite-plugin-vercel": "^0.3.7"
+    "swr": "^2.2.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

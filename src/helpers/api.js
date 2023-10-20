@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-// eslint-disable-next-line no-undef
-export const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL;
+export const apiBaseUrl = import.meta.env.VITE_APP_API_URL;
 
 export const api = axios.create({
   baseURL: apiBaseUrl,
