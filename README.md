@@ -32,7 +32,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [RSuitJS](https://rsuitejs.com/)
 - [Material Icons](https://mui.com/)
 - [AP_FHIR](https://learn.microsoft.com/en-us/azure/healthcare-apis/azure-api-for-fhir/overview)
-- [VM-Azure](https://azure.microsoft.com/pt-br/products/virtual-machines/spot/?&ef_id=_k_Cj0KCQjwhL6pBhDjARIsAGx8D5_TP8-bIOILRtRR1Cv0tnNYp9U49DM3cOgRHpKf9DKRCC_K_1eoxHgaAu4EEALw_wcB_k_&OCID=AIDcmmzmnb0182_SEM__k_Cj0KCQjwhL6pBhDjARIsAGx8D5_TP8-bIOILRtRR1Cv0tnNYp9U49DM3cOgRHpKf9DKRCC_K_1eoxHgaAu4EEALw_wcB_k_&gclid=Cj0KCQjwhL6pBhDjARIsAGx8D5_TP8-bIOILRtRR1Cv0tnNYp9U49DM3cOgRHpKf9DKRCC_K_1eoxHgaAu4EEALw_wcB)
 
 ## 💻 Projeto
 
@@ -44,7 +43,7 @@ O Projeto Vida Renal é uma aplicação de prontuário eletrônico desenvolvida 
 
 ## 🔖 Aplicação
 
-Você pode visualizar a aplicação do projeto através [DESSE LINK](https://frontend-vida-renal.vercel.app)
+Você pode visualizar a aplicação do projeto através [DESSE LINK](https://giselearaujos.github.io/frontend_vida_renal/)
 
 ## 📈 Novas Features
 
