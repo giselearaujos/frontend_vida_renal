@@ -106,7 +106,6 @@ export const Prescriptions = () => {
           style={{
             width: '34rem',
             height: '3rem',
-            backgroundColor: '#7faaef',
             borderRadius: '1.5rem',
             margin: '1rem 0',
             fontSize: '1.5rem',

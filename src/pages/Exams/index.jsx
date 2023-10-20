@@ -90,23 +90,24 @@ export const Exams = () => {
       <Divider />
       <Styled.ContainerRight>
       <Styled.BtnAndSearch>
-        <ButtonAction
-          icon={<BloodtypeIcon/>}
-          iconBackground="#1CA47E"
-          iconColor="#FFF"
-          text="Solicitar exames"
-          textColor="#FFF"
-          hoverBackground="#5084d8"
-          hoverColor="#FFF"
-          onClick={() => {}}
-        />
+        <div>
+          <ButtonAction
+            icon={<BloodtypeIcon/>}
+            iconBackground="#1CA47E"
+            iconColor="#FFF"
+            text="Solicitar exames"
+            textColor="#FFF"
+            hoverBackground="#5084d8"
+            hoverColor="#FFF"
+            onClick={() => {}}
+          />
+        </div>
         <input
           type='text'
           placeholder={'Buscar'}
           style={{
             width: '34rem',
             height: '3rem',
-            backgroundColor: '#7faaef',
             borderRadius: '1.5rem',
             margin: '1rem 0',
             fontSize: '1.5rem',
