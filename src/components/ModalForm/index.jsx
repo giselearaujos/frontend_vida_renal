@@ -4,7 +4,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import { apiBaseUrl } from '../../helpers/api';
 import moment from 'moment';
-
+import MaskedInput from 'react-text-mask';
 
 export const ModalForm = ({ isOpen, onClose, onAddPatient }) => {
   const [formData, setFormData] = useState({
@@ -127,19 +127,23 @@ export const ModalForm = ({ isOpen, onClose, onAddPatient }) => {
               />
             </Form.Group>
             <Form.Group controlId="phone">
-              <Form.ControlLabel>Telefone</Form.ControlLabel>
-              <Form.Control
-                name="phone"
-                value={formData.phone}
-                onChange={(value) => handleFormChange(value, 'phone')}
-              />
+            <Form.ControlLabel>Telefone</Form.ControlLabel>
+            <MaskedInput
+              mask={['(', /[1-9]/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
+              className="rs-input"
+              guide={false}
+              value={formData.phone}
+              onChange={(e) => handleFormChange(e.target.value, 'phone')}
+            />
             </Form.Group>
             <Form.Group controlId="birthday">
               <Form.ControlLabel>Data de Nascimento</Form.ControlLabel>
-              <Form.Control
-                name="birthday"
+              <MaskedInput
+                mask={[/\d/, /\d/, '/', /\d/, /\d/, '/', /\d/, /\d/, /\d/, /\d/]}
+                className="rs-input"
+                guide={false}
                 value={formData.birthday}
-                onChange={(value) => handleFormChange(value, 'birthday')}
+                onChange={(e) => handleFormChange(e.target.value, 'birthday')}
               />
             </Form.Group>
             {validationError && (
