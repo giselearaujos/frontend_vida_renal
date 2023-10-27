@@ -78,10 +78,10 @@ export const Exams = () => {
         </Styled.Card>
         <ButtonAction
           icon={<DownloadForOfflineIcon />}
-          iconBackground="#5084d8"
-          iconColor="#000"
-          text="Baixar relatórios"
-          textColor="#000"
+          iconBackground="#001459"
+          iconColor="#fff"
+          text="Baixar todos os exames"
+          textColor="#fff"
           hoverBackground="#86a9e0"
           hoverColor="#FFF"
           onClick={() => {}}

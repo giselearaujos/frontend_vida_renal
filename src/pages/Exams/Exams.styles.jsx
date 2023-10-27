@@ -10,14 +10,13 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 1rem;
   padding-right: 1rem;
 `;
 
 export const Block = styled.div`
   img {
     width: 250px;
-    height: 200px;
+    height: 170px;
   }
 `;
 

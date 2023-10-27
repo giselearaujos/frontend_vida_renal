@@ -5,7 +5,6 @@ export const Wrapper = styled.div`
   align-items: center;
   flex-direction: column;
   height: 90%;
-  margin-top: 5%;
 `;
 
 export const ButtonWrapper = styled.div`

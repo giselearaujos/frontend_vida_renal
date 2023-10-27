@@ -1,7 +1,7 @@
 import { ButtonAction } from '../../components/ButtonAction';
 import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
-import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import ModeEditRoundedIcon from '@mui/icons-material/ModeEditRounded';
 import * as Styled from "./Patients.styles";
 import { useEffect, useState } from 'react';
 import { ModalForm } from '../../components/ModalForm';
@@ -103,12 +103,14 @@ export const Patients = () => {
               <Styled.Td>{patient.telecom[0].value}</Styled.Td>
               <Styled.Td>{formattedDate}</Styled.Td>
               <Styled.Td>
-                <div style={{display: 'flex', justifyContent: 'space-around'}}>
+                <div style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}>
                   <DeleteOutlinedIcon
-                    style={{ cursor: 'pointer' }}
+                    style={{ cursor: 'pointer', fontSize: '2rem' }}
                     onClick={() => handleDeletePatient(patient.id)}
                   />
-                  <RemoveRedEyeIcon />
+                  <ModeEditRoundedIcon
+                    style={{ color: '#95959b' }}
+                  />
                 </div>
               </Styled.Td>
             </tr>

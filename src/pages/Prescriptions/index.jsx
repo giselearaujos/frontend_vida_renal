@@ -77,10 +77,10 @@ export const Prescriptions = () => {
         </Styled.Card>
         <ButtonAction
           icon={<DownloadForOfflineIcon />}
-          iconBackground="#5084d8"
-          iconColor="#000"
+          iconBackground="#001459"
+          iconColor="#fff"
           text="Baixar todas as receitas"
-          textColor="#000"
+          textColor="#fff"
           hoverBackground="#86a9e0"
           hoverColor="#FFF"
           onClick={() => {}}
