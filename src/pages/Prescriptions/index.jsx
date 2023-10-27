@@ -2,7 +2,6 @@ import * as Styled from './Prescriptions.styles';
 import { ButtonAction } from '../../components/ButtonAction';
 import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 import BloodtypeIcon from '@mui/icons-material/Bloodtype';
-import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import CancelIcon from '@mui/icons-material/Cancel';
 import ImgPDF from '../../assets/pdf.svg';
@@ -26,7 +25,7 @@ export const Prescriptions = () => {
           </Styled.Item>
           <Styled.Item>
             <Styled.Label>Data</Styled.Label>
-            <Styled.Data>04/09/2023 (1 comp ao dia por 2 dias)</Styled.Data>
+            <Styled.Data>04/09/2023</Styled.Data>
           </Styled.Item>
           <Styled.Item>
             <Styled.Label>Solicitante</Styled.Label>
@@ -124,7 +123,7 @@ export const Prescriptions = () => {
           <Styled.Line>Departamento</Styled.Line>
           <Styled.Line>Status</Styled.Line>
         </Styled.THead>
-        <Styled.TBody>          
+        <Styled.TBody>
           <Styled.Line>Polaramine</Styled.Line>
           <Styled.Line>Drª Marina Pereira</Styled.Line>
           <Styled.Line>04/10/2023</Styled.Line>
@@ -137,7 +136,7 @@ export const Prescriptions = () => {
             </span>
           </Styled.Line>
         </Styled.TBody>
-        <Styled.TBody>          
+        <Styled.TBody>
           <Styled.Line>Renagel</Styled.Line>
           <Styled.Line>Fabiola Negrini</Styled.Line>
           <Styled.Line>04/10/2023</Styled.Line>
@@ -148,9 +147,9 @@ export const Prescriptions = () => {
             <CheckCircleIcon style={{color: '#5fa67e'}} />
             Em uso
             </span>
-          </Styled.Line>         
+          </Styled.Line>
         </Styled.TBody>
-        <Styled.TBody>          
+        <Styled.TBody>
           <Styled.Line>Amoxilina</Styled.Line>
           <Styled.Line>Dr Yuri Brito</Styled.Line>
           <Styled.Line>11/09/2023</Styled.Line>
@@ -161,9 +160,9 @@ export const Prescriptions = () => {
             <CancelIcon style={{color: '#c33e17'}}/>
               Expirado
             </span>
-          </Styled.Line>         
+          </Styled.Line>
         </Styled.TBody>
-        <Styled.TBody>          
+        <Styled.TBody>
           <Styled.Line>Prednisona</Styled.Line>
           <Styled.Line>Dr Yuri Brito</Styled.Line>
           <Styled.Line>11/09/2023</Styled.Line>
@@ -174,9 +173,9 @@ export const Prescriptions = () => {
               <CancelIcon style={{color: '#c33e17'}}/>
               Expirado
             </span>
-          </Styled.Line>         
+          </Styled.Line>
         </Styled.TBody>
-        <Styled.TBody>          
+        <Styled.TBody>
           <Styled.Line>Captopril (dose única)</Styled.Line>
           <Styled.Line>Draª Marina Pereira</Styled.Line>
           <Styled.Line>01/09/2023</Styled.Line>
@@ -187,7 +186,7 @@ export const Prescriptions = () => {
             <CancelIcon style={{color: '#c33e17'}}/>
               Expirado
             </span>
-          </Styled.Line>         
+          </Styled.Line>
         </Styled.TBody>
       </Styled.Table>
       </Styled.ContainerRight>

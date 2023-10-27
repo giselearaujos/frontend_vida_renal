@@ -6,7 +6,7 @@ export const SidebarWrapper = styled.aside`
   background-color: #364887;
   position: fixed;
   top: 0;
-  left: 0;  
+  left: 0;
 `;
 
 export const SidebarList = styled.ul`
@@ -26,9 +26,14 @@ export const SidebarItem = styled.li`
     font-weight: bold;
     color: #fff;
     background-color: ${(props) => (props.active ? '#5A92F0' : 'transparent')};
+    transition: background-color 0.3s;
 
     &.active {
       background-color: #5A92F0;
+    }
+
+    &:hover {
+      background-color: #5cadf9;
     }
   }
 `;

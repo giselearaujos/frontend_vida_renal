@@ -9,7 +9,7 @@ import { Infos } from './Infos';
 import { Complications } from './Complications';
 import { Notes } from './Notes';
 
-export const Sessions = () => { 
+export const Sessions = () => {
   const [selectedMenuItem, setSelectedMenuItem] = useState('Relatório');
   return (
     <Styled.Wrapper>

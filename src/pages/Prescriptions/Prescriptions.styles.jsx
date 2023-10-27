@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Content = styled.div`
-  display: flex;  
+  display: flex;
   align-items: center;
   height: 100%;
 `;
@@ -10,22 +10,20 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 100%;
-  width: 20rem;
+  margin-top: 1rem;
   padding-right: 1rem;
 `;
 
 export const Block = styled.div`
   img {
-    width: 290px;
-    height: 250px;
-
+    width: 250px;
+    height: 200px;
   }
 `;
 
 export const Title = styled.h3`
   font-size: 1.8rem;
-  padding: 1rem 0;
+  padding: 1rem 0 0.5rem;
   color: #364887;
   font-weight: normal;
 `;
@@ -46,7 +44,7 @@ export const  Wrapper = styled.div`
 
 export const Item = styled.div`
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   margin-bottom: 0.5rem;
 `;
 
@@ -57,7 +55,7 @@ export const Label = styled.div`
 `;
 
 export const Data = styled.div`
-  font-size: 1rem;  
+  font-size: 1rem;
 `;
 
 export const Card = styled.div`
@@ -70,7 +68,7 @@ export const Card = styled.div`
 export const Exams = styled.div`
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid;  
+  border-bottom: 1px solid;
   margin: 1rem;
   cursor: pointer;
 `;
@@ -91,7 +89,7 @@ export const Table = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
-  padding: 1rem  
+  padding: 1rem;
 `;
 
 export const THead = styled.div`
@@ -118,6 +116,6 @@ export const Line = styled.div`
 
   span {
     display: flex;
-    gap: 1rem;    
+    gap: 1rem;
   }
 `;

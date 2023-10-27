@@ -7,10 +7,10 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 
 export const Header = () => {
   return (
-    <Styled.Container>      
+    <Styled.Container>
       <Styled.Logo>
         <img src={Logo} alt="Logo que mostra um sistema de rins dentro de um circulo azul" />
-        <img src={VidaRenal} alt="Minha Logo" />        
+        <img src={VidaRenal} alt="Minha Logo" />
       </Styled.Logo>
       <Styled.Controls>
         <Styled.Icons>

@@ -119,10 +119,6 @@ export const Infos = () => {
           </Styled.Footer>
         </Styled.Card>
       </div>
-
-
-
-
     </Styled.Container>
   )
 }

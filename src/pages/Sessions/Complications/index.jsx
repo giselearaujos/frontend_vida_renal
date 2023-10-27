@@ -26,7 +26,7 @@ export const Complications = () => {
           <div>Gisele Araujo Silva, Coren SP 123.456</div>
           <Styled.HourReport>12:20</Styled.HourReport>
         </Styled.ContentReport>
-    </Styled.CardReport>  
+    </Styled.CardReport>
     <Styled.CardReport>
       <Styled.TitleReport>Relatório da Enfermagem</Styled.TitleReport>
         <Styled.ContentReport>
@@ -37,7 +37,7 @@ export const Complications = () => {
           <div>Gisele Araujo Silva, Coren SP 123.456</div>
           <Styled.HourReport>13:45</Styled.HourReport>
         </Styled.ContentReport>
-    </Styled.CardReport>      
+    </Styled.CardReport>
     </Styled.Container>
   )
 }

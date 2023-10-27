@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
   width: 100%;
   height: 100%;
   margin-left: 1rem;
@@ -17,7 +17,7 @@ export const Card = styled.div`
   `;
 
 export const Content = styled.div`
-  display: flex;  
+  display: flex;
 `;
 
 export const Wrapper = styled.div`
@@ -29,9 +29,9 @@ export const Wrapper = styled.div`
 
 export const Info = styled.div`
   display: flex;
-  align-items: center;  
-  width: 15rem;  
-  justify-content: space-between;  
+  align-items: center;
+  width: 15rem;
+  justify-content: space-between;
 `;
 
 export const Label = styled.h3`
@@ -56,13 +56,13 @@ export const Type = styled.div`
 
 export const Footer = styled.div`
   display: flex;
-  margin: 1rem 0;  
+  margin: 1rem 0;
 `;
 
 export const InfoFooter = styled.div`
   display: flex;
-  align-items: center;    
+  align-items: center;
   justify-content: space-between;
-  gap: 1rem;  
+  gap: 1rem;
   padding-right: 1rem;
 `;

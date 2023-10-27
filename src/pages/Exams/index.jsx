@@ -126,7 +126,7 @@ export const Exams = () => {
           <Styled.Line>Departamento</Styled.Line>
           <Styled.Line>Status</Styled.Line>
         </Styled.THead>
-        <Styled.TBody>          
+        <Styled.TBody>
           <Styled.Line>Hemograma Completo</Styled.Line>
           <Styled.Line>Drª Marina Pereira</Styled.Line>
           <Styled.Line>04/10/2023</Styled.Line>
@@ -139,7 +139,7 @@ export const Exams = () => {
             </span>
           </Styled.Line>
         </Styled.TBody>
-        <Styled.TBody>          
+        <Styled.TBody>
           <Styled.Line>Em processamento</Styled.Line>
           <Styled.Line>Dr Yuri Brito</Styled.Line>
           <Styled.Line>29/09/2023</Styled.Line>
@@ -150,9 +150,9 @@ export const Exams = () => {
             <AccessTimeFilledIcon style={{color: '364887'}}/>
             Em processamento
             </span>
-          </Styled.Line>         
+          </Styled.Line>
         </Styled.TBody>
-        <Styled.TBody>          
+        <Styled.TBody>
           <Styled.Line>Exame de Imagem</Styled.Line>
           <Styled.Line>Drª Marina Pereira</Styled.Line>
           <Styled.Line>04/09/2023</Styled.Line>
@@ -163,9 +163,9 @@ export const Exams = () => {
               <CheckCircleIcon style={{color: '#5fa67e'}} />
               Finalizado
             </span>
-          </Styled.Line>         
+          </Styled.Line>
         </Styled.TBody>
-        <Styled.TBody>          
+        <Styled.TBody>
           <Styled.Line>Exame Laboratorial</Styled.Line>
           <Styled.Line>Dr Alexandre Toshiba</Styled.Line>
           <Styled.Line>01/09/2023</Styled.Line>
@@ -176,9 +176,9 @@ export const Exams = () => {
               <CancelIcon style={{color: '#c33e17'}}/>
               Cancelado
             </span>
-          </Styled.Line>         
+          </Styled.Line>
         </Styled.TBody>
-        <Styled.TBody>          
+        <Styled.TBody>
           <Styled.Line>Potássio | Ferratina</Styled.Line>
           <Styled.Line>Fabiola Negrini </Styled.Line>
           <Styled.Line>01/09/2023</Styled.Line>
@@ -189,7 +189,7 @@ export const Exams = () => {
               <CheckCircleIcon style={{color: '#5fa67e'}} />
               Finalizado
             </span>
-          </Styled.Line>         
+          </Styled.Line>
         </Styled.TBody>
       </Styled.Table>
       </Styled.ContainerRight>

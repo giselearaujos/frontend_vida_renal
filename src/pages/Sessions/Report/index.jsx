@@ -32,7 +32,7 @@ export const Report = () => {
           <p>
           Durante a passagem de rotina, seu Benedito informou que está sentindo muita náusea em todo começo de diálise, orientei a equipe de enfermagem a <span>administrar 1am de Plásil EV. Solicitei exames</span> de rotina e recomendei  fazer uma dieta leve pela manhã antes de toda sessão. Não apresentou outras queixas.
           </p>
-          <div>Marina Pereira, CRM 12.345/SP</div>          
+          <div>Marina Pereira, CRM 12.345/SP</div>
           <Styled.HourReport>12:00</Styled.HourReport>
         </Styled.ContentReport>
       </Styled.CardReport>

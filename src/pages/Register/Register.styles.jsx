@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const FormWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  border: 1px solid #b8bae0;  
-  box-shadow: 0px 0px 10px 0px rgba(0,1,4,0);  
-  padding: 1rem;  
+  border: 1px solid #b8bae0;
+  box-shadow: 0px 0px 10px 0px rgba(0,1,4,0);
+  padding: 1rem;
   position: relative;
 `;
 
@@ -13,7 +13,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;    
+    gap: 10px;
     width: 31%;
 `;
 
@@ -47,7 +47,7 @@ export const FormGroup = styled.div`
   padding: 0.5rem;
   border: 1px solid #364887;
   border-radius: 6px;
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
   }
 `;
 

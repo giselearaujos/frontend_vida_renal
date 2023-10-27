@@ -1,12 +1,19 @@
 import styled from 'styled-components';
 
+export const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+  margin-top: 5%;
+`;
+
 export const ButtonWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 18px;
   margin: 1.8rem;
-  
 `;
 
 export const Table = styled.table`
@@ -20,17 +27,17 @@ export const Table = styled.table`
 export const Th = styled.th`
   color: #fff;
   background-color: #364887;
-  border: 1px solid #ddd;  
+  border: 1px solid #ddd;
   text-align: left;
   padding: 12px;
   font-size: 1.5rem;
-  font-weight: bold;  
+  font-weight: bold;
 `;
 
 export const Td = styled.td`
   border: 1px solid #ddd;
   padding: 12px;
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
   transition: background-color 0.2s;
 
   &:hover {
@@ -42,8 +49,8 @@ export const LoadingWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px; 
+  height: 300px;
   font-size: 1.5rem;
   font-weigth: 600;
-  color: #364887; 
+  color: #364887;
 `;

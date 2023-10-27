@@ -12,9 +12,9 @@ export const Patients = () => {
   const [patients, setPatients] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [isModalOpen, setIsModalOpen] = useState(false); 
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [patientToDelete, setPatientToDelete] = useState(null);
-  const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false); 
+  const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
 
   const loadPatients = () => {
     setIsLoading(true);
@@ -70,7 +70,7 @@ export const Patients = () => {
   };
 
   return (
-    <>
+    <Styled.Wrapper>
       <Styled.ButtonWrapper>
       <ButtonAction
           icon={<AddCircleOutlineOutlinedIcon />}
@@ -132,6 +132,6 @@ export const Patients = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-    </>
+    </Styled.Wrapper>
   );
 };

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-
 export const ButtonWrapper = styled.button`
   display: flex;
   align-items: center;
@@ -13,7 +12,7 @@ export const ButtonWrapper = styled.button`
   border-radius: 20px;
   color: ${(props) => props.textColor || '#000'};
   text-decoration: none !important;
-  transition: background-color 0.3s, color 0.3s;  
+  transition: background-color 0.3s, color 0.3s;
 
   &:hover {
     background-color: ${(props) => props.hoverBackground || props.iconBackground || 'transparent'};
@@ -31,6 +30,6 @@ export const ButtonText = styled.span`
 `;
 
 export const CustomLink = styled(Link)`
-  text-decoration: none; 
-  color: inherit; 
+  text-decoration: none;
+  color: inherit;
 `;

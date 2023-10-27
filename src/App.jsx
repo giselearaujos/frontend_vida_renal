@@ -9,7 +9,7 @@ function App() {
   const location = useLocation();
   const [showHeaderAndSidebar, setShowHeaderAndSidebar] = useState(true);
 
-  useEffect(() => {    
+  useEffect(() => {
     if (location.pathname === '/') {
       setShowHeaderAndSidebar(false);
     } else {

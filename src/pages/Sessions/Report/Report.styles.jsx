@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
   width: 100%;
   height: 100%;
   margin-left: 1rem;
-  gap: 5rem;
+  gap: 2rem;
   `;
 
 export const CardReport = styled.div`
@@ -21,23 +21,23 @@ export const CardReport = styled.div`
 `;
 
 export const TitleReport = styled.h3`
- font-size: 1.6rem;
- font-weight: 400;
- color: #001459F2;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #001459F2;
 `;
 
 export const ContentReport = styled.h3`
- font-size: 1rem; 
- text-align: justify;
+  font-size: 1rem;
+  text-align: justify;
 
- p {
+  p {
   line-height: 1.5rem;
 
   span {
     color: #364887;
     text-decoration: underline;
   }
- }
+}
 `;
 
 export const HourReport = styled.div`

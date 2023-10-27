@@ -8,7 +8,7 @@ import MonitorHeartOutlinedIcon from '@mui/icons-material/MonitorHeartOutlined';
 import { NavLink } from "react-router-dom";
 
 export const Sidebar = () => {
-  return (   
+  return (
     <Styled.SidebarWrapper>
       <Styled.SidebarList>
         <Styled.SidebarItem>
@@ -42,7 +42,7 @@ export const Sidebar = () => {
           </NavLink>
         </Styled.SidebarItem>
       </Styled.SidebarList>
-    </Styled.SidebarWrapper>     
+    </Styled.SidebarWrapper>
   );
 };
 

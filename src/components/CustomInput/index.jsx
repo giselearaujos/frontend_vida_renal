@@ -6,7 +6,7 @@ export const CustomInput = ({ bg, width,placeholder, value, onChange }) => {
     <Styled.InputWrapper
       type="text"
       bg={bg}
-      width={width}      
+      width={width}
       placeholder={placeholder}
       value={value}
       onChange={onChange}
@@ -16,7 +16,7 @@ export const CustomInput = ({ bg, width,placeholder, value, onChange }) => {
 
 CustomInput.propTypes = {
   bg: PropTypes.string,
-  width: PropTypes.string, 
+  width: PropTypes.string,
   placeholder: PropTypes.string,
   value: PropTypes.string,
   onChange: PropTypes.func,

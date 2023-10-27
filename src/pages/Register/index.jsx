@@ -34,7 +34,6 @@ export const Register = () => {
       <Styled.FormTitle>Cadastro de Paciente</Styled.FormTitle>
       <div style={{display: 'flex', justifyContent: 'space-around', marginTop: '20px'}}>
       <Styled.Container>
-
         <Styled.FormGroup>
           <label>Nome:</label>
           <input
@@ -44,7 +43,6 @@ export const Register = () => {
             onChange={handleChange}
           />
         </Styled.FormGroup>
-      
         <Styled.FormGroup>
           <label>Gênero:</label>
           <select name="genero" value={formData.genero} onChange={handleChange}>
@@ -53,7 +51,6 @@ export const Register = () => {
             <option value="naoInformar">Não Informar</option>
           </select>
         </Styled.FormGroup>
-
         <Styled.FormGroup>
           <label>Data de Nasc:</label>
           <input
@@ -63,7 +60,6 @@ export const Register = () => {
             onChange={handleChange}
           />
         </Styled.FormGroup>
-
         <Styled.FormGroup>
           <label>CPF:</label>
           <input
@@ -72,8 +68,7 @@ export const Register = () => {
             value={formData.cpf}
             onChange={handleChange}
           />
-        </Styled.FormGroup>      
-
+        </Styled.FormGroup>
         <Styled.FormGroup>
           <label>Naturalidade:</label>
           <input
@@ -82,11 +77,8 @@ export const Register = () => {
             value={formData.naturalidade}
             onChange={handleChange}
           />
-        </Styled.FormGroup>  
-
-
-      </Styled.Container>        
-            
+        </Styled.FormGroup>
+      </Styled.Container>
       <Styled.Container>
         <Styled.FormGroup>
           <label>Telefone:</label>
@@ -97,15 +89,13 @@ export const Register = () => {
             onChange={handleChange}
             />
         </Styled.FormGroup>
-
         <Styled.FormGroup>
           <label>Convênio:</label>
           <select name="convenio" value={formData.convenio} onChange={handleChange}>
             <option value="sus">SUS</option>
             <option value="particular">Particular</option>
           </select>
-        </Styled.FormGroup>     
-
+        </Styled.FormGroup>
         <Styled.FormGroup>
           <label>CEP:</label>
           <input
@@ -115,7 +105,6 @@ export const Register = () => {
             onChange={handleChange}
           />
         </Styled.FormGroup>
-
         <Styled.FormGroup>
           <label>Logradouro:</label>
           <input
@@ -125,7 +114,6 @@ export const Register = () => {
             onChange={handleChange}
           />
         </Styled.FormGroup>
-
         <Styled.FormGroup>
           <label>Número:</label>
           <input
@@ -135,11 +123,10 @@ export const Register = () => {
             onChange={handleChange}
           />
         </Styled.FormGroup>
-
       </Styled.Container>
       </div>
       <Styled.Button>Cadastrar</Styled.Button>
     </Styled.FormWrapper>
     </>
   );
-};  
+};

@@ -22,12 +22,12 @@ export const Notes = () => {
                 </p>
                 <Styled.HourReport>04/10 12:20</Styled.HourReport>
             </Styled.ContentReport>
-        </Styled.CardReport>  
-        <Styled.CardReport>      
+        </Styled.CardReport>
+        <Styled.CardReport>
             <Styled.ContentReport>
                 <p>
                 Quando estava quase chegando em casa minha fístula começou a vazar muito e tive que ir no postinho pra fazer um novo curativo.
-                </p>        
+                </p>
                 <Styled.HourReport>04/10 15:12</Styled.HourReport>
             </Styled.ContentReport>
         </Styled.CardReport>
