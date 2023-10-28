@@ -120,9 +120,9 @@ export const Patients = () => {
       </Styled.Table>
       <Modal open={isDeleteModalOpen} onClose={handleCloseDeleteConfirmation}>
         <Modal.Header>
-          <Modal.Title>Confirmação de Exclusão</Modal.Title>
+          <Modal.Title style={{ fontSize: '1.5rem', color: '#364887' }}>Confirmação de Exclusão</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body style={{fontSize: '1.3rem' }}>
           Tem certeza de que deseja excluir este paciente?
         </Modal.Body>
         <Modal.Footer>

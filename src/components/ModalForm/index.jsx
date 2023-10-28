@@ -106,44 +106,48 @@ export const ModalForm = ({ isOpen, onClose, onAddPatient }) => {
     <>
       <Modal open={isOpen} onClose={onClose}>
         <Modal.Header>
-          <Modal.Title>Cadastrar Paciente</Modal.Title>
+          <Modal.Title style={{ fontSize: '1.5rem', color: '#364887' }}>Cadastrar Paciente</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form fluid>
             <Form.Group controlId="name">
-              <Form.ControlLabel>Nome</Form.ControlLabel>
+              <Form.ControlLabel style={{ fontSize: '1.3rem', color: '#364887' }}>Nome:</Form.ControlLabel>
               <Form.Control
                 name="name"
                 value={formData.name}
                 onChange={(value) => handleFormChange(value, 'name')}
+                style={{ border: '1px solid #696969', fontSize: '1.3rem' }}
               />
             </Form.Group>
             <Form.Group controlId="lastName">
-              <Form.ControlLabel>Sobrenome</Form.ControlLabel>
+              <Form.ControlLabel style={{ fontSize: '1.3rem', color: '#364887' }}>Sobrenome:</Form.ControlLabel>
               <Form.Control
                 name="lastName"
                 value={formData.lastName}
                 onChange={(value) => handleFormChange(value, 'lastName')}
+                style={{ border: '1px solid #696969', fontSize: '1.3rem' }}
               />
             </Form.Group>
             <Form.Group controlId="phone">
-            <Form.ControlLabel>Telefone</Form.ControlLabel>
+            <Form.ControlLabel style={{ fontSize: '1.3rem', color: '#364887' }}>Telefone:</Form.ControlLabel>
             <MaskedInput
               mask={['(', /[1-9]/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
               className="rs-input"
               guide={false}
               value={formData.phone}
               onChange={(e) => handleFormChange(e.target.value, 'phone')}
+              style={{ border: '1px solid #696969', fontSize: '1.3rem' }}
             />
             </Form.Group>
             <Form.Group controlId="birthday">
-              <Form.ControlLabel>Data de Nascimento</Form.ControlLabel>
+              <Form.ControlLabel style={{ fontSize: '1.3rem', color: '#364887' }}>Data de Nascimento:</Form.ControlLabel>
               <MaskedInput
                 mask={[/\d/, /\d/, '/', /\d/, /\d/, '/', /\d/, /\d/, /\d/, /\d/]}
                 className="rs-input"
                 guide={false}
                 value={formData.birthday}
                 onChange={(e) => handleFormChange(e.target.value, 'birthday')}
+                style={{ border: '1px solid #696969', fontSize: '1.3rem' }}
               />
             </Form.Group>
             {validationError && (
