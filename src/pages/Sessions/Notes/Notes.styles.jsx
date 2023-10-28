@@ -38,6 +38,8 @@ export const Rigth = styled.div`
   width: 5rem;
   height: 2rem;
   margin: 0 4rem;
+  display: flex;
+  gap: 1.8rem;
 `;
 
 export const CircleName = styled.div`

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { ButtonAction } from '../../../components/ButtonAction';
 import * as Styled from './Notes.styles';
 import AddCircleRoundedIcon from '@mui/icons-material/AddCircleRounded';
+import ModeEditRoundedIcon from '@mui/icons-material/ModeEditRounded';
 import { Button, Form, Input, Modal, Panel } from 'rsuite';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 
@@ -11,30 +12,42 @@ export const Notes = () => {
   const [newName, setNewName] = useState('');
   const [newPressure, setNewPressure] = useState('');
   const [notes, setNotes] = useState([]);
+  const [selectedNoteIndex, setSelectedNoteIndex] = useState(-1);
   const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const handleClose = () => {
+    setOpen(false);
+    setSelectedNoteIndex(-1);
+  };
 
   const handleSaveNote = () => {
     if (newMessage && newName && newPressure) {
       const currentDate = new Date();
       const formattedDate = `
-      ${currentDate.getDate()} de
-      ${getMonthName(currentDate.getMonth())} de
-      ${currentDate.getFullYear()} ${currentDate.getHours()}:${currentDate.getMinutes()}
-    `;
-
+        ${currentDate.getDate()} de
+        ${getMonthName(currentDate.getMonth())} de
+        ${currentDate.getFullYear()} ${currentDate.getHours()}:${currentDate.getMinutes()}
+      `;
+  
       const newNote = {
         name: newName,
         pressure: newPressure,
         note: newMessage,
         dateTime: formattedDate,
       };
-
-      setNotes([...notes, newNote]);
-      localStorage.setItem('notes', JSON.stringify([...notes, newNote]));
+  
+      if (selectedNoteIndex !== -1) {        
+        const updatedNotes = [...notes];
+        updatedNotes[selectedNoteIndex] = newNote;
+        setNotes(updatedNotes);
+      } else {        
+        setNotes([...notes, newNote]);
+      }
+  
+      localStorage.setItem('notes', JSON.stringify(notes));
       setNewMessage('');
       setNewName('');
       setNewPressure('');
+      setSelectedNoteIndex(-1); 
       setOpen(false);
     }
   };
@@ -139,8 +152,18 @@ export const Notes = () => {
                     </Styled.Left>
                     <Styled.Rigth>
                         <DeleteOutlinedIcon
-                        style={{ cursor: 'pointer', color: '#808080', fontSize: '2rem', fontWeight: 'bold' }}
-                        onClick={() => handleRemoveNote(index)}
+                          style={{ cursor: 'pointer', color: '#808080', fontSize: '2rem', fontWeight: 'bold' }}
+                          onClick={() => handleRemoveNote(index)}
+                        />
+                        <ModeEditRoundedIcon
+                          style={{ cursor: 'pointer', color: '#808080', fontSize: '2rem', fontWeight: 'bold' }}
+                          onClick={() => {
+                            setSelectedNoteIndex(index); 
+                            setNewName(note.name);
+                            setNewPressure(note.pressure);
+                            setNewMessage(note.note);
+                            handleOpen();
+                          }}
                         />
                     </Styled.Rigth>
               </Styled.WrapperPannel>
